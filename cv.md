@@ -25,3 +25,4 @@ RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 ## Languages:
 English - A2 (according to the online test at www.efset.org) <br>
 Russian - Native
+> the one who falls never gets up
