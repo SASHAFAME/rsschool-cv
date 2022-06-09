@@ -4,26 +4,62 @@ body {
     font-family: 'Roboto', sans-serif;
 
     min-height: 100vh;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1024px;
+}
+
+/* Заголовки */
+h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
+}
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+
+
+h1 {
+    width: 303px;
+    height: 100px;
+    left: 527px;
+    top: 88px;
+}
+
+.section-title {
+
+}
+
+.rectangle {
+    position: relative;
+}
+
+
+html {
+    scroll-behavior: smooth;
 }
 
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 924px;
     margin: 0 auto;
+    border: 5px solid black;
 }
 
+
+.container-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 .header {
-    border: 5px solid red;
+    text-align: center;
 }
 
 
@@ -32,6 +68,14 @@ body {
     text-transform: uppercase;
     font-weight: bolder;
 }
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
 .nav-item {
     margin: 0 10px;
     position: relative;
@@ -41,16 +85,112 @@ body {
 }
 
 .nav-item:hover {
-    color: #803e00;
+    color: #ff7b00;
 }
 
 .nav-item:hover:after {
     opacity: 1;
 }
 
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+}
 
+
+/* Main */
 .main {
     border: 5px solid rgb(255, 238, 0);
+    
+}
+
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
+.section {
+    
+}
+
+
+.profile {
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+.profile img {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    object-fit: cover;
+}
+
+.profile-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+#profile {
+    
+}
+
+
+#contact {
+
+}
+
+
+#skills {
+
+}
+
+
+#languages {
+
+}
+
+
+#workexamples {
+
+}
+
+
+#workexperience {
+
+}
+
+
+#aboutmyself {
+
+}
+
+
+#courses {
+
+}
+
+
+#education {
+
 }
 
 
