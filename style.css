@@ -1,12 +1,9 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
-
     min-height: 100vh;
     margin-right: auto;
     margin-left: auto;
     max-width: 1024px;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Заголовки */
@@ -15,21 +12,112 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
 }
 
-
-
 h1 {
-    width: 303px;
-    height: 100px;
-    left: 527px;
-    top: 88px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
 }
 
-.section-title {
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
 
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size:20px;
+}
+
+p {
+    font-size: 16px;
+}
+/* Header */
+
+.header {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+/* Nav */
+
+.nav {
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 0;
+    position: relative;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 3px;
+}
+
+.nav-item:hover {
+    color: #ff7b00;
+    border: 2px solid #ff7b00;
+    background-color:white;
+}
+
+.nav-item:hover:after {
+    opacity: 0;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+/* Section-title */
+
+.section-title-under {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
 
 .rectangle {
     position: relative;
+}
+
+.rectangle-width {
+    object-fit: cover;
+    width: 100%;
+}
+
+
+.name {
+    position:relative;
+    text-align:center;
+    width: 340px;
+}
+
+
+.profile-text {
+    position: absolute;
+    top: -55px;
+    right: 30px;
+}
+
+.profile-text-under {
+    position: absolute;
+    top: 12px;
+    right: 40px;
+}
+
+
+.avatar {
+
 }
 
 
@@ -45,9 +133,8 @@ html {
 }
 
 .container {
-    max-width: 924px;
+    max-width: 786px;
     margin: 0 auto;
-    border: 5px solid black;
 }
 
 
@@ -58,56 +145,24 @@ html {
 }
 
 
-.header {
-    text-align: center;
-}
-
-
-.nav {
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: bolder;
-}
-
-.nav-list {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-}
-
-.nav-item {
-    margin: 0 10px;
-    position: relative;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    transition: color .2s linear;
-}
-
-.nav-item:hover {
-    color: #ff7b00;
-}
-
-.nav-item:hover:after {
-    opacity: 1;
-}
-
-.nav-link {
-    padding: 0 20px;
-    line-height: 50px;
-}
-
-
 /* Main */
 .main {
-    border: 5px solid rgb(255, 238, 0);
-    
+    max-width: 786px;
+    margin: 0 auto;
 }
 
 
-.main-container {
+.contact-rect {
+    width: 311px;
+    height: 836px;
+    background-image: url("./assets/img/contact.png");
+}
+
+
+
+.container-main {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 
@@ -118,35 +173,20 @@ html {
   }
 
 .section {
-    
+
 }
+
+.section-text-contact {
+    margin: 40px;
+
+}
+
 
 
 .profile {
-    display: block;
-    overflow: hidden;
-    position: relative;
+
 }
 
-.profile img {
-    width: 100%;
-    height: 100%;
-    border: 0;
-    object-fit: cover;
-}
-
-.profile-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-}
 
 
 #profile {
@@ -155,27 +195,47 @@ html {
 
 
 #contact {
+    color: white;
+    line-height: 33px;
+}
 
+.contact-website-link {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-website-link:hover {
+    text-decoration: none;
+    color: #ff7b00;
 }
 
 
 #skills {
-
+    color: white;
 }
 
 
 #languages {
-
+    color: white;
 }
 
 
 #workexamples {
-
+    color: white;
 }
 
 
 #workexperience {
 
+}
+
+
+/* About Myself */
+
+.about-myself {
+    width: 445px;
+    height: 835px;
+    background-image: url(/assets/img/rect2.png);
 }
 
 
@@ -194,10 +254,21 @@ html {
 }
 
 
+footer {
+    max-width: 786px;
+    margin: auto;
+}
+
 .footer {
-    border: 5px solid red;
+    max-width: 786px;
+    margin: 20px 0 0 0;
 }
 
 
 
 
+.container-flex {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
