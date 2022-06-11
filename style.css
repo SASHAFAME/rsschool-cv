@@ -1,0 +1,315 @@
+body {
+    min-height: 100vh;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1024px;
+    
+    font-family: 'Poppins', sans-serif;
+
+    background: url(".//assets/background.jpg");
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Заголовки */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size:20px;
+}
+
+p {
+    font-size: 16px;
+}
+/* Header */
+
+.header {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+/* Nav */
+
+.nav {
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 0;
+    position: relative;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 3px;
+}
+
+.nav-item:hover {
+    color: #ff7b00;
+    border: 2px solid #ff7b00;
+}
+
+.nav-item:hover:after {
+    opacity: 0;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+/* Section-title */
+
+.section-title-under {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+
+.name {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 240px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+
+.profile-name {
+    padding-right: 10px;
+    text-align:center;
+}
+
+
+.profile-text-under {
+    position: absolute;
+    padding: 17px;
+}
+
+.rect {
+    width: 318px;
+    height: 59px;
+    background-color: #ff7b00;
+    box-shadow: 10px 10px 0 #2D2F31;
+}
+
+
+.avatar {
+    display: flex;
+}
+
+.border-avatar-orange {
+    width: 309px;
+    height: 471px;
+    border-radius: 40px;
+    border: 4px solid #ff7b00;
+    margin-top: 23px;
+    margin-left: 23px;
+    position: absolute;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 786px;
+    margin: 0 auto;
+}
+
+
+.container-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.empty-top {
+   height: 240px;
+   margin-right: 50px;
+}
+
+
+/* Main */
+.main {
+    max-width: 786px;
+    margin: 0 auto;
+}
+
+
+.contact-block {
+    width: 311px;
+    height: 836px;
+    background-color: #2D2F31;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #2D2F31;
+}
+
+
+
+.container-main-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
+.section {
+    padding: 5px;
+}
+
+.section-text-contact {
+    padding: 35px;
+    color: white;
+    line-height: 32px;
+}
+
+
+.contact-website-link {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-website-link:hover {
+    text-decoration: none;
+    color: #ff7b00;
+}
+
+
+#skills {
+    color: white;
+}
+
+
+#languages {
+    color: white;
+}
+
+
+#workexamples {
+    color: white;
+}
+
+.workexamples-link-style {
+    text-decoration: none;
+    color: white;
+}
+
+.workexamples-link-style:hover {
+    text-decoration: none;
+    color: #ff7b00;
+}
+
+/* About Myself */
+
+.about-myself-block {
+    width: 429px;
+    height: 821px;
+    background-color: #ff7b00;
+    box-shadow: 14px 14px 0 #2D2F31;
+    margin-right: 14px;
+    }
+
+.section-text-aboutmyself {
+    padding: 22px;
+    font-weight: bolder;
+}
+
+.flex-code {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.container-code {
+    display: flex;
+    padding: 15px;
+}
+
+.style-code {
+    color: white;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-rect-code {
+    width: 368px;
+    height: 166px;
+    background-color: #2D2F31;
+    position: absolute;
+    box-shadow: 0 0 10px #2D2F31;
+}
+
+footer {
+    max-width: 786px;
+    margin: auto;
+}
+
+.footer {
+    width: 784px;  
+    height: 118px;
+    margin: 20px 0 15px 0;
+    border-radius: 40px;
+    background-color: #2D2F31;
+    box-shadow: 0 0 10px #2D2F31;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.github-logo {
+    text-decoration: none;
+    color: white;
+}
+
+.github-logo:hover {
+    opacity: 60%;
+}
+
+.rsschool:hover {
+    opacity: 60%;
+}

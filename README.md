@@ -1,3 +1,2 @@
 # rsschool-cv
-
-https://SASHAFAME.github.io/rsschool-cv/cv
+https://SASHAFAME.github.io/rsschool-cv/
