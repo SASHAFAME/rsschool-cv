@@ -128,10 +128,6 @@ p {
     display: flex;
 }
 
-.avatar-image {
-    
-}
-
 .border-avatar-orange {
     width: 309px;
     height: 471px;
@@ -210,12 +206,6 @@ p {
 }
 
 
-
-#profile {
-    
-}
-
-
 #contact {
     color: white;
     line-height: 33px;
@@ -271,29 +261,6 @@ p {
     font-weight: bolder;
 }
 
-#workexperience {
-
-    }
-
-#aboutmyself {
-
-}
-
-
-
-#courses {
-
-}
-
-
-#education {
-
-}
-
-#code {
-
-}
-
 .flex-code {
     display: flex;
     flex-direction: column;
@@ -324,4 +291,20 @@ footer {
     border-radius: 40px;
     background-color: #2D2F31;
     box-shadow: 0 0 10px #2D2F31;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.github-logo {
+    text-decoration: none;
+    color: white;
+}
+
+.github-logo:hover {
+    opacity: 60%;
+}
+
+.rsschool:hover {
+    opacity: 60%;
 }
